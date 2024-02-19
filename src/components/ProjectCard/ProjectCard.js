@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 import { style } from "glamor";
 
 export default function ProjectCard({ repo, theme }) {
-  console.log(repo);
+  // console.log(repo);
   // function openRepoinNewTab(url) {
   //   var win = window.open(url, "_blank");
   //   win.focus();

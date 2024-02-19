@@ -4,7 +4,6 @@
   "description": "My portfolio",
   "license": "ISC",
   "author": "sandesh yadav",
-  "homepage": "http://sandeshsyadav.github.io/PortfolioV2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sandeshsyadav/sandeshsyadav.github.io.git"
