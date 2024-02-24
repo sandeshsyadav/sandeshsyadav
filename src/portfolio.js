@@ -15,7 +15,7 @@ const greeting = {
   nickname: "",
   full_name: "Sandesh Yadav",
   subTitle:
-    "Principal Software Engineering Manager, front-end expert 🔥. Always learning.",
+    "Principal Software Engineering Manager, software development expert. Always learning. 🔥",
   resumeLink:
     "https://drive.google.com/file/d/1naFFWJo1VXconirE_J0IcrWG-AhShFBH/view?usp=drive_link",
   mail: "mailto:sandeshsyadav@gmail.com",
@@ -34,12 +34,11 @@ const skills = {
       title: "Software Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Manage, lead and mentor resources",
-        "⚡ Cross collaborating across different team",
-        "⚡ Creating application backend in Node, Express & Graphql",
-        "⚡ Integration of third party services such as Firebase/ AWS",
+        "⚡ Develops responsive UI/UX using Angular and ReactJS",
+        "⚡ Implements backend services in Node, Express & Graphql",
+        "⚡ Integrates third party services",
+        "⚡ Implements analytics using GA4 and Firebase",
+        "⚡ Expertize in Agile and Scrum Methodologies",
       ],
       softwareSkills: [
         {
@@ -155,9 +154,7 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Expert in hosting and managing websites with continuous integration and deployment",
       ],
       softwareSkills: [
         {
@@ -246,7 +243,7 @@ const experience = {
   title: "Experience",
   subtitle: "",
   description:
-    "I have over 17+ years of industry experience in managing, leading, designing, implementing, and delivery of enterprise-level and incubator solutions to support growing needs of technology industry. A visionary who translates business requirements into strategic technical solutions with focus on functionality, technicality, and scalability.",
+    "17+ years of industry experience in managing, leading, designing, implementing, and delivery of enterprise-level and incubator solutions to support growing needs of technology industry. A visionary who translates business requirements into strategic technical solutions with focus on functionality, technicality, and scalability.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -323,8 +320,7 @@ const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "sandesh.png",
-    description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+    description: "You can contact me at:",
   },
   blogSection: {
     title: "",

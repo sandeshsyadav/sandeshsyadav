@@ -1,5 +1,6 @@
 .skills-main-div {
   display: flex;
+  margin-top: -1rem;
 }
 
 .skills-header {
@@ -39,6 +40,11 @@
   font-family: "Google Sans Regular";
 }
 
+.skills-description {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
@@ -46,6 +52,10 @@
   }
   .skills-header {
     font-size: 50px;
+  }
+  .skills-description {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 @media (max-width: 768px) {
@@ -79,5 +89,10 @@
   }
   .skills-image-div > * {
     margin-top: 0px;
+  }
+
+  .skills-description {
+    margin-left: 2%;
+    margin-right: 2%;
   }
 }

@@ -40,9 +40,10 @@ function SkillSection(props) {
                 </Fade>
                 <Fade right duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence) => {
+                    {skill.skills.map((skillSentence, index) => {
                       return (
                         <p
+                          key={index}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
@@ -69,9 +70,10 @@ function SkillSection(props) {
                 </Fade>
                 <Fade left duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence) => {
+                    {skill.skills.map((skillSentence, index) => {
                       return (
                         <p
+                          key={index}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
